@@ -13,6 +13,8 @@ AROAY_TRANSLATE_HEADLESS = True
 ```
 # 使用
 
+`dont_filter=True 必须设置，因为翻译都是请求同一个网址`
+
 ```
 class TranlateSpider(scrapy.Spider):
     name = 'tranlate'
