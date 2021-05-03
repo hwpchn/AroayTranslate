@@ -1,1 +1,1 @@
-from .request import PyppeteerRequest
+from .request import TranslateRequest

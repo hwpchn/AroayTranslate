@@ -3,7 +3,7 @@ from typing import Optional, Tuple
 import copy
 
 
-class PyppeteerRequest(Request):
+class TranslateRequest(Request):
     """
     Scrapy ``Request`` subclass providing additional arguments
     """

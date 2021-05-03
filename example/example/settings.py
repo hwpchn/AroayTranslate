@@ -50,7 +50,7 @@ ROBOTSTXT_OBEY = False
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
-    'aroay_translate.downloadermiddlewares.PyppeteerMiddleware': 543,
+    'aroay_translate.downloadermiddlewares.TranslateMiddleware': 543,
 }
 AROAY_TRANSLATE_HEADLESS = True
 

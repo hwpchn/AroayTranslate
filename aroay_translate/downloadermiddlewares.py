@@ -45,7 +45,7 @@ class DeepLCLIPageLoadError(Exception):
     pass
 
 
-class PyppeteerMiddleware(object):
+class TranslateMiddleware(object):
     """
     Downloader middleware handling the requests with Puppeteer
     """
