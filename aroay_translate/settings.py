@@ -1,0 +1,47 @@
+import logging
+
+# aroay_translate logging level
+AROAY_TRANSLATE_LOGGING_LEVEL = logging.WARNING
+
+# aroay_translate timeout
+AROAY_TRANSLATE_DOWNLOAD_TIMEOUT = 30
+
+# aroay_translate browser window
+AROAY_TRANSLATE_WINDOW_WIDTH = 1400
+AROAY_TRANSLATE_WINDOW_HEIGHT = 700
+
+# aroay_translate browser default ua
+AROAY_TRANSLATE_DEFAULT_USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36'
+
+# aroay_translate settings
+AROAY_TRANSLATE_HEADLESS = True
+AROAY_TRANSLATE_EXECUTABLE_PATH = None
+AROAY_TRANSLATE_IGNORE_HTTPS_ERRORS = False
+AROAY_TRANSLATE_SLOW_MO = None
+AROAY_TRANSLATE_IGNORE_DEFAULT_ARGS = False
+AROAY_TRANSLATE_HANDLE_SIGINT = True
+AROAY_TRANSLATE_HANDLE_SIGTERM = True
+AROAY_TRANSLATE_HANDLE_SIGHUP = True
+AROAY_TRANSLATE_DUMPIO = False
+AROAY_TRANSLATE_DEVTOOLS = False
+AROAY_TRANSLATE_AUTO_CLOSE = True
+AROAY_TRANSLATE_PRETEND = True
+# aroay_translate args
+AROAY_TRANSLATE_DISABLE_EXTENSIONS = True
+AROAY_TRANSLATE_HIDE_SCROLLBARS = True
+AROAY_TRANSLATE_MUTE_AUDIO = True
+AROAY_TRANSLATE_NO_SANDBOX = True
+AROAY_TRANSLATE_DISABLE_SETUID_SANDBOX = True
+AROAY_TRANSLATE_DISABLE_GPU = True
+
+# ignore resource types, ResourceType will be one of the following: ``document``,
+# ``stylesheet``, ``image``, ``media``, ``font``, ``script``,
+#  ``texttrack``, ``xhr``, ``fetch``, ``eventsource``, ``websocket``,
+#  ``manifest``, ``other``.
+AROAY_TRANSLATE_IGNORE_RESOURCE_TYPES = []
+AROAY_TRANSLATE_SCREENSHOT = None
+AROAY_TRANSLATE_SLEEP = 1
+AROAY_ENABLE_REQUEST_INTERCEPTION = False
+
+
+
